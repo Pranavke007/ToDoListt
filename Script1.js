@@ -30,7 +30,7 @@ const addToDo = () => {
         li.appendChild(editBtn);
 
         //creating Delete Btn
-     /*   const deleteBtn = document.createElement("button");
+        const deleteBtn = document.createElement("button");
         deleteBtn.innerText = "Remove";
         deleteBtn.classList.add("btn");
         li.appendChild(deleteBtn);
@@ -39,7 +39,7 @@ const addToDo = () => {
         inputBox.value = " ";
     }
 }
-*/
+
 const updateToDo = (e) => {
     // console.log(e.target.innerHTML);
     if (e.target.innerHTML === "Remove") {
